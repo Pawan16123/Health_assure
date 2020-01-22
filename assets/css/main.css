@@ -114,3 +114,45 @@ section.banner .banner__right-side::after{
     right: 20px;
 
 }
+
+/* slider */
+section.slider{
+    padding: 20px;
+}
+section.slider .slider-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+section.slider .slider-container .first-slide,
+section.slider .slider-container .second-slide{
+    background-color: #d9eafa;
+    width: 49%;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #1b267c;
+
+}
+section.slider .slider-container .slides-image{
+    height: 250px;
+    width: 390px;
+}
+
+section.slider .slider-container img{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+section.slider .slider-container .slides-content{
+    width: 400px;
+}
+/* section.slider .slider-container .slides-image .banner_holderimage1{
+    height: 100%;
+    position:relative;
+    background:   url("../images/doctor.png")no-repeat;
+    background-size: cover;
+    background-position: center;
+} */
