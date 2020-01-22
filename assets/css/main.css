@@ -5,6 +5,13 @@
 html,body{
     width: 100%;
     height: 100%;
+    margin: 0;
+}
+input{
+    outline: none;
+    box-shadow: none;
+    padding-left: 20px;
+    font-size: 12px;
 }
 
 header.main-header{
@@ -37,8 +44,46 @@ header ul.menu{
     align-items: center;
     justify-content: space-around;
     width: 350px;
+    padding-left: 0;
 }
 header ul.menu a,
 header ul.menu li{
     text-decoration: none;
+    color: inherit;
+}
+
+/* Banner carousel */
+section.banner .banner__left-side{
+    width: 75%;
+    background-color: #8bb0b3;
+    height: inherit;
+}
+
+section.banner{
+    height: 365px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+section.banner .banner__left-side .carousel-body .carousel-content{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+section.banner .banner__left-side .carousel-body .carousel-indicator span{
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #ffffff;
+    position: relative;
+    top: 20px;
+    left: 50%;
+}
+section.banner .banner__right-side{
+    width: 25%;
+    /* background-color: #f5f7f8 ; */
+    background-color: #f5f7f8 ;
+    height: inherit;
 }
