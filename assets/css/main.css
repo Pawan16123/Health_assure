@@ -205,3 +205,24 @@ div#img-gradient img{
   #img-gradient img{
     display:block;
   }
+
+  /* Three-rows */
+
+  .three-rows .row1,
+  .three-rows .row2,
+  .three-rows .row3{
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+  }
+
+  .three-rows .row1 .placard,
+  .three-rows .row2 .placard{
+      width: 290px;
+      height: 290px;
+  }
+  .three-rows .row1 .placard img{
+      display: block;
+  }
+  
+
