@@ -2,6 +2,9 @@
     box-sizing: border-box;
     list-style-type: none;
 }
+img{
+    max-width: 100%;
+}
 html,body{
     width: 100%;
     height: 100%;
@@ -227,6 +230,7 @@ section.three-rows{
 section.three-rows h1{
     color: #1b267c;
     font-weight: 200;
+    padding-left: 5px;
 }
 
 .three-rows .row1,
@@ -244,8 +248,9 @@ section.three-rows h1{
 .three-rows .row2 .placard{
     width: 290px;
     height: 290px;
-    margin: 10px;
-
+}
+.three-rows .row3 .placard{
+    position: relative;
 }
 .three-rows .row1 .placard img{
     display: block;
@@ -286,4 +291,33 @@ section.three-rows .placard .buy-now .offer{
     align-items: center;
     color: #61be80;
 }
+section.three-rows .placard .placard-container{
+    padding: 5px;
+}
 
+section.three-rows .row3 .placard img{
+    border: 1px solid #f0f0f0;
+    border-radius: 5px;
+}
+
+section.three-rows .row3 .placard .imgplustext{
+    position: absolute;
+    top: 0;
+    left: 25px;
+}
+section.three-rows .row3 .placard .buy-now{
+    border: none;
+}
+
+
+/* Primary care network */
+
+section.networks h1{
+    color: #1b267c;
+    text-align: center;
+}
+
+section.networks h2{
+    color: #1b267c;
+    
+}
