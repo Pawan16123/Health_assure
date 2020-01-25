@@ -172,12 +172,14 @@ section.slider .slider-container .slider-text h2{
     line-height: 0.5;
 }
 section.slider .slider-container .slider-text button{
-    margin: 30px;
+    margin: 25px;
     border:none;
     background-color: #cad6ed;
     padding: 10px 20px;
     border-radius: 6px;
     border: 1px solid #8cbedd;
+    font-size: 0.7em;
+    text-transform: uppercase;
 
 }
 section.slider>h1{
@@ -206,21 +208,82 @@ div#img-gradient img{
     display:block;
   }
 
-  /* Three-rows */
+/* What's up */
+section.whatsup h1{
+    font-size: 2em;
+    color: #1b267c;
+    text-align: center
+}
 
-  .three-rows .row1,
-  .three-rows .row2,
-  .three-rows .row3{
-      display: flex;
-      justify-content: space-around;
-      align-items: center;
-  }
 
-  .three-rows .row1 .placard,
-  .three-rows .row2 .placard{
-      width: 290px;
-      height: 290px;
-  }
-  .three-rows .row1 .placard img{
-      display: block;
-  }
+
+/* Three-rows */
+
+section.three-rows{
+     padding-left: 50px;
+     padding-right: 50px;
+}
+
+section.three-rows h1{
+    color: #1b267c;
+    font-weight: 200;
+}
+
+.three-rows .row1,
+.three-rows .row2,
+.three-rows .row3{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.three-rows .row2{
+    margin-bottom: 50px;
+}
+
+.three-rows .row1 .placard,
+.three-rows .row2 .placard{
+    width: 290px;
+    height: 290px;
+    margin: 10px;
+
+}
+.three-rows .row1 .placard img{
+    display: block;
+}
+.three-rows .placard .imgplustext p{
+    height: 30px;
+}
+section.three-rows .placard .buy-now{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid #ebebeb;
+    padding-top: 10px;
+    font-size: 0.8em;
+}
+section.three-rows .placard .buy-now a{
+    text-decoration: none;
+    color: inherit;
+    color: #6acff6;
+    font-weight: 00;
+    font-family: sans-serif;
+    position: relative;
+
+}
+section.three-rows .placard .buy-now a::after{
+    content: "";
+    width: 4px;
+    height: 4px;
+    position: absolute;
+    border-top: 4px solid #6acff6;
+    border-right: 4px solid #6acff6;
+    transform: rotate(45deg);
+    right: -15px;
+    bottom: 3px;
+}
+section.three-rows .placard .buy-now .offer{
+    display: flex;
+    align-items: center;
+    color: #61be80;
+}
+
