@@ -425,3 +425,32 @@ section.healthpass .healthpass-leftcontainer .service p{
 section.healthpass .healthpass-leftcontainer .appstorelinks img{
     margin: 50px 15px 0 0;
 }
+
+/* Healthassure news */
+section.news{
+    padding: 80px 50px;
+}
+section.news h1{
+    color: #1b267c;
+    text-align: center;
+    margin-bottom: 50px;
+}
+section.news .news-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+section.news .news-container .news-date{
+    color: lightgray;
+    font-family: sans-serif;
+    margin: 0;
+    font-size: 0.7em;
+    padding: ;
+}
+section.news .news-container .news-text{
+    margin: 0;
+}
+section.news .news-container .news-text-container{
+    padding: 0 10px;
+    line-height: 20px;
+}
