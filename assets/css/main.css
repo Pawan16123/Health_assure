@@ -489,10 +489,36 @@ section.clients .clients-brand-container{
     display: flex;
     justify-content: space-around;
     align-items: center;
+    padding-bottom: 30px;
 }
 section.clients .clients-review-container .client-review-profile p{
     margin: 0;
 }
 section.clients .clients-review-container .client-review-profile p.post{
     color: #666666;
+}
+
+/* Rewards */
+section.rewards{
+    margin-top: 50px;
+}
+section.rewards .awards-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0px 60px;
+}
+
+/* social media */
+section.socialmedia{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 50px;
+    border-top: 1px solid #e1e1e1;
+    border-bottom: 1px solid #e1e1e1;
+    margin: 30px 0;
+}
+section.socialmedia .links-container a{
+    margin-left: 10px;
 }
