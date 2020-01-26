@@ -110,6 +110,7 @@ section.banner .banner__right-side .fact1{
 }
 section.banner .banner__right-side span{
     max-width: 190px;
+    margin-left: 12px;
 }
 section.banner .banner__right-side::after{
     content: url(../images/chat-icon.png);
