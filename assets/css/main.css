@@ -28,7 +28,7 @@ header .logo img{
     width: 200px;
 }
 header .searchbar input{
-    border: 1px solid lightgray;
+    border: 1px solid #666666;
     line-height: 40px;
 }
 
@@ -430,7 +430,7 @@ section.healthpass .healthpass-leftcontainer .appstorelinks img{
 section.news{
     padding: 80px 50px;
 }
-section.news h1{
+.common-h1{
     color: #1b267c;
     text-align: center;
     margin-bottom: 50px;
@@ -441,7 +441,7 @@ section.news .news-container{
     justify-content: space-between;
 }
 section.news .news-container .news-date{
-    color: lightgray;
+    color: #666666;
     font-family: sans-serif;
     margin: 0;
     font-size: 0.7em;
@@ -453,4 +453,46 @@ section.news .news-container .news-text{
 section.news .news-container .news-text-container{
     padding: 0 10px;
     line-height: 20px;
+}
+
+/* clients */
+section.clients{
+    background-color: #f5f7f8;
+    padding-top: 30px;
+}
+section.clients .clients-review-container{
+    padding: 0px 100px;
+}
+section.clients .clients-review-container {
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+section.clients .clients-review-container  .client-review{
+    margin: 0 30px;
+}
+section.clients .clients-review-container .client-review-text{
+    background-color: white;
+    padding: 25px;
+    line-height: 23px;
+}
+section.clients .clients-review-container .client-review-profile{
+    display: inline-flex;
+    align-items: center;
+    position: relative;
+    top: -18px;
+    left: 10px;
+}
+
+section.clients .clients-brand-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+section.clients .clients-review-container .client-review-profile p{
+    margin: 0;
+}
+section.clients .clients-review-container .client-review-profile p.post{
+    color: #666666;
 }
