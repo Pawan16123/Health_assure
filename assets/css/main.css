@@ -608,11 +608,11 @@ footer .footer-disclaimer{
     }
 
     #nav-icon2 {
-        width: 60px;
-        height: 45px;
+        width: 30px;
+        height: 25px;
         position: absolute;
         transition: .5s ease-in-out;
-        right: 20px;
+        right: 40px;
         cursor: pointer;
     }
     
@@ -662,7 +662,7 @@ footer .footer-disclaimer{
     }
     
     #nav-icon2.open span:nth-child(2) {
-      left: calc(50% - 5px);
+      left: calc(50% - -11px);
       top: 7px;
     }
     
@@ -682,7 +682,7 @@ footer .footer-disclaimer{
     }
     
     #nav-icon2.open span:nth-child(6) {
-      left: calc(50% - 5px);
+      left: calc(50% - -11px);
       top: 29px;
     }
     
