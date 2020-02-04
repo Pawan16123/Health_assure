@@ -783,4 +783,35 @@ header+.mobile-nav{
         flex-direction: column;
     }
 
+
+    /* Primary care network */
+    section.networks>img {
+        left: 83%;
+        margin-left: -43%;
+        top: 36%;
+        width: 11%;
+    }
+
+    section.networks .networks-container .network--india .cities, section.networks .networks-container .network--india .care-center {
+        font-size: 6px;
+    }
+
+    section.networks .networks-container .network--india .cities::before,
+    section.networks .networks-container .network--india .care-center::before{
+        transform: scale(0.5);
+    }
+
+    section.networks .networks-container .network--india .care-center::before {
+        top: -10px;
+        left: -70px;
+    }
+    section.networks .networks-container .network--india {
+        /* position: absolute; */
+        left: 100px;
+        top: 30px;
+    }
+    section.networks .networks-container .network--india .cities::before {
+        top: -10px;
+    }
+
 }
