@@ -18,7 +18,7 @@ input{
 }
 
 header.main-header{
-    height: 100px;
+    height: 70px;
     display: flex;
     text-align: center;
     align-items: center;
@@ -67,6 +67,8 @@ section.banner{
     display: flex;
     align-items: center;
     justify-content: space-around;
+    position: relative;
+    top: 70px;
 
 }
 section.banner .banner__left-side .carousel-body .carousel-content{
@@ -601,6 +603,22 @@ footer .footer-disclaimer{
     display: none !important;
 }
 
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    background-color: white;
+    width: 100%;
+}
+header+.mobile-nav{
+    position: fixed;
+    left: 0;
+    width: 100%;
+    background-color: white;
+    z-index: 100;
+    top: 70px;
+}
 @media (max-width : 1200px){
     header>.searchbar,
     header>ul.menu{
@@ -702,7 +720,7 @@ footer .footer-disclaimer{
     header.main-header {
         height: 70px;
     }
-    .mobile-nav{
+    .mobile-nav .mobile-container{
         display: flex;
         flex-direction: column;
         align-items: center;
