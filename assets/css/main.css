@@ -619,6 +619,11 @@ header+.mobile-nav{
     z-index: 100;
     top: 70px;
 }
+@media (min-width:1200px){
+    header+div.mobile-nav{
+        display: none;
+    }
+}
 @media (max-width : 1200px){
     header>.searchbar,
     header>ul.menu{
