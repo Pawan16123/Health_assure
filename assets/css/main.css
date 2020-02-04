@@ -27,30 +27,30 @@ header.main-header{
 header .logo img{
     width: 200px;
 }
-header .searchbar input{
+.searchbar input{
     border: 1px solid #666666;
     line-height: 40px;
 }
 
-header .searchbar .location{
+.searchbar .location{
     border-radius: 20px 0 0 20px;
     width:125px;
 }
-header .searchbar .search-service{
+.searchbar .search-service{
     border-radius: 0 20px 20px 0;
     border-left: none;
     width: 470px;
 
 }
-header ul.menu{
+ul.menu{
     display: flex;
     align-items: center;
     justify-content: space-around;
     width: 350px;
     padding-left: 0;
 }
-header ul.menu a,
-header ul.menu li{
+ul.menu a,
+ul.menu li{
     text-decoration: none;
     color: inherit;
 }
@@ -592,9 +592,18 @@ footer .footer-disclaimer{
     display: none;
 }
 
+/* .mobile-nav */
+/* header+.mobile-nav{
+    display: none;
+} */
+
+.toggledisplay{
+    display: none !important;
+}
+
 @media (max-width : 1200px){
-    header .searchbar,
-    header ul.menu{
+    header>.searchbar,
+    header>ul.menu{
         display: none;
     }
 
@@ -689,5 +698,30 @@ footer .footer-disclaimer{
     .halfWidth{
         width: 70% !important;
     }
-    
+    /* Mobile Navigation */
+    header.main-header {
+        height: 70px;
+    }
+    .mobile-nav{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .mobile-nav .searchbar .location{
+        width: 100px;
+    }
+    .mobile-nav .searchbar .search-service{
+        width: 300px;
+    }
+    .mobile-nav ul{
+        display: flex;
+        flex-direction: column;
+    }
+    .mobile-nav li{
+        padding: 10px;
+    }
+    .searchbar input{
+        line-height: 35px;
+    }
+
 }
