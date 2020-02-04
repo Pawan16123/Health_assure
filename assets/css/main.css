@@ -614,6 +614,7 @@ footer .footer-disclaimer{
         transition: .5s ease-in-out;
         right: 40px;
         cursor: pointer;
+        /* background: yellow; */
     }
     
     #nav-icon2 span {
@@ -657,13 +658,13 @@ footer .footer-disclaimer{
     }
     
     #nav-icon2.open span:nth-child(1) {
-      left: 5px;
-      top: 7px;
+      left: -1px;
+      top: 0px;
     }
     
     #nav-icon2.open span:nth-child(2) {
-      left: calc(50% - -11px);
-      top: 7px;
+      left: calc(50% - -2px);
+      /* top: 7px; */
     }
     
     #nav-icon2.open span:nth-child(3) {
@@ -672,19 +673,21 @@ footer .footer-disclaimer{
     }
     
     #nav-icon2.open span:nth-child(4) {
-      left: 100%;
+      left: 50%;
       opacity: 0;
     }
     
     #nav-icon2.open span:nth-child(5) {
-      left: 5px;
-      top: 29px;
+      left: -1px;
+      top: 18px;
     }
     
     #nav-icon2.open span:nth-child(6) {
-      left: calc(50% - -11px);
-      top: 29px;
+      left: calc(50% - -2px);
+      top: 18px;
     }
-    
+    .halfWidth{
+        width: 70% !important;
+    }
     
 }
