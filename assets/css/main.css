@@ -9,6 +9,7 @@ html,body{
     width: 100%;
     height: 100%;
     margin: 0;
+    font-family: 'Roboto Slab', serif;
 }
 input{
     outline: none;
@@ -16,7 +17,7 @@ input{
     padding-left: 20px;
     font-size: 12px;
 }
-
+/* section{float: left;} */
 header.main-header{
     height: 70px;
     display: flex;
@@ -60,21 +61,23 @@ section.banner .banner__left-side{
     width: 75%;
     background-color: #8bb0b3;
     height: inherit;
+    /* height: 365px; */
 }
 
 section.banner{
-    height: 365px;
+    height: fit-content;
     display: flex;
     align-items: center;
     justify-content: space-around;
-    position: relative;
-    top: 70px;
-
+    margin-top: 70px;
 }
 section.banner .banner__left-side .carousel-body .carousel-content{
     display: flex;
     justify-content: space-around;
     align-items: center;
+}
+section.banner .banner__left-side .carousel-body .carousel-indicator {
+    height: 52px;
 }
 section.banner .banner__left-side .carousel-body .carousel-indicator span{
     display: inline-block;
@@ -274,7 +277,7 @@ section.three-rows .placard .buy-now a{
     color: inherit;
     color: #6acff6;
     font-weight: 00;
-    font-family: sans-serif;
+    font-family: 'Roboto Slab', serif;
     position: relative;
 
 }
@@ -445,7 +448,7 @@ section.news .news-container{
 }
 section.news .news-container .news-date{
     color: #666666;
-    font-family: sans-serif;
+    font-family: 'Roboto Slab', serif;
     margin: 0;
     font-size: 0.7em;
     padding: ;
@@ -586,7 +589,7 @@ footer .footer-disclaimer{
     padding: 10px 90px;
     color: white;
     font-weight: 100;
-    font-family: sans-serif;
+    font-family: 'Roboto Slab', serif;
 }
 
 /* Hamburger */
@@ -747,4 +750,18 @@ header+.mobile-nav{
         line-height: 35px;
     }
 
+   
+
+    /* banner */
+    section.banner{
+        flex-direction: column;
+        /* top: 166px; */
+    }
+    section.banner .banner__left-side,
+    section.banner .banner__right-side {
+        width: 100%;
+    }
+    section.banner .banner__right-side .fact1, section.banner .banner__right-side .fact2 {
+        justify-content: center;
+    }
 }
