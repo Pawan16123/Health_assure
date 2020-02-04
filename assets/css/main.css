@@ -814,4 +814,54 @@ header+.mobile-nav{
         top: -10px;
     }
 
+    /* healthpass */
+    section .mobplustab:first-of-type img{
+        display: none;
+    }
+    section.healthpass {
+        display: block;
+        /* justify-content: space-between;
+        align-items: center;
+        padding: 20px 80px; */
+    }
+    section.healthpass .healthpass-leftcontainer .row1, section.healthpass .healthpass-leftcontainer .row2 {
+        flex-direction: column;
+        justify-content: center;
+    }
+    section.healthpass .healthpass-leftcontainer .service {
+        border: none !important;
+    }
+    body > section.healthpass > div:nth-child(2) > div > div.appstorelinks {
+        text-align: center;
+    }
+    section.healthpass .healthpass-leftcontainer .appstorelinks img {
+        display: inline-block;
+        width: 180px;
+        margin: 10px 10px;
+        /* margin: 50px 15px 0 0; */
+    }
+
+
+
+    /* Healthassure news */
+    section.news {
+        padding: 20px 50px;
+    }
+    section.news .news-img .news-img-container{
+        text-align: center;
+    }
+    section.news .news-container {
+        flex-direction: column;
+    }
+
+    /* reviews */
+    section.clients .clients-review-container {
+        flex-direction: column;
+    }
+    section.clients .clients-review-container .client-review {
+        margin: 0;
+    }
+    body > section.clients > div.clients-brand-container .brands-display{
+        display: none;
+    }
 }
