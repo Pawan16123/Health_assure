@@ -908,4 +908,17 @@ header+.mobile-nav{
     body > section.slider > div.slider-container{
         overflow: hidden;
     }
+
+    /* searchbar */
+    body > div.mobile-nav > div.mobile-container > div.searchbar > input.location{
+        margin: 15px auto;
+    }
+    .mobile-container .searchbar .location,
+    .mobile-container .searchbar .search-service {
+        border-radius: 20px;
+        border-left: 1px solid #666666;
+    }
+    .mobile-container div.searchbar input {
+        display: block;
+    }
 }
