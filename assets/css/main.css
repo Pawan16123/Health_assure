@@ -533,11 +533,6 @@ section.socialmedia .links-container a{
 }
 
 
-section.socialmedia {
-    flex-direction: column;
-}
-
-
 /* Footer */
 
 /* footer links */
@@ -881,6 +876,13 @@ header+.mobile-nav{
         left: -20px;
     }
 
+    /* social media */
+
+
+    section.socialmedia {
+        flex-direction: column;
+    }
+        
     /* footer */
     footer .footer-links {
         flex-direction: column;
