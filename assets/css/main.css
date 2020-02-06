@@ -31,6 +31,7 @@ header .logo img{
 .searchbar input{
     border: 1px solid #666666;
     line-height: 40px;
+    font-family: fontawesome;
 }
 
 .searchbar .location{
@@ -625,6 +626,7 @@ header+.mobile-nav{
     z-index: 100;
     top: 70px;
 }
+
 @media (min-width:1200px){
     header+div.mobile-nav{
         display: none;
@@ -922,5 +924,7 @@ header+.mobile-nav{
     }
     .mobile-container div.searchbar input {
         display: block;
+        font-family: FontAwesome !important;
     }
+
 }
